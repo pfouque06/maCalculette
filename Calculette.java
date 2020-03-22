@@ -33,7 +33,6 @@ public class Calculette implements Observed {
 	}
 
 	public void run() {
-		// TODO Auto-generated method stub
 		while (true) {
 			try {
 				Thread.sleep(100);
@@ -44,7 +43,6 @@ public class Calculette implements Observed {
 	}
 
 	public void processAction(String buttonTitle) {
-		// TODO Auto-generated method stub
 		logger.logging(">> processAction : " + buttonTitle);
 		switch (buttonTitle) {
 		case ".":
@@ -81,7 +79,6 @@ public class Calculette implements Observed {
 	}
 
 	private void keyboardClic(String buttonTitle) {
-		// TODO Auto-generated method stub
 		logger.logging(">> keyboardClic : " + buttonTitle);
 		switch (buttonTitle) {
 		case ".":
@@ -127,7 +124,6 @@ public class Calculette implements Observed {
 	}
 
 	private void actionClic(String buttonTitle) {
-		// TODO Auto-generated method stub
 		logger.logging(">> actionClic");
 
 		if (input.isEmpty())
@@ -193,7 +189,6 @@ public class Calculette implements Observed {
 	}
 
 	private void memoryClic(String buttonTitle) {
-		// TODO Auto-generated method stub
 		logger.logging(">> memoryClic : memory= " + memory + " memSet= " + memSet);
 		switch (buttonTitle) {
 		case "MC": // Reset memory
@@ -220,7 +215,6 @@ public class Calculette implements Observed {
 	}
 
 	private void resetClic() {
-		// TODO Auto-generated method stub
 		logger.logging(">> resetClic");
 		this.init();
 		logger.logging(">> display= " + display + " value= " + value + " action= " + action + " input=" + input);
