@@ -74,6 +74,7 @@ public class Fenetre extends JFrame implements ActionListener, KeyListener {
 	}
 
 	public Fenetre() {
+		// TODO Auto-generated constructor stub
 
 		// On initialise la JFrame
 		this.setTitle("Calculette");
@@ -183,6 +184,7 @@ public class Fenetre extends JFrame implements ActionListener, KeyListener {
 
 			@Override
 			public void update(LinkedHashSet<String[]> pLHS) {
+				// TODO Auto-generated method stub
 				logger.logging(" >> update(pLHS)");
 				
 				// updating provided LHS
@@ -330,6 +332,7 @@ public class Fenetre extends JFrame implements ActionListener, KeyListener {
 
 	@Override
 	public void actionPerformed(ActionEvent ae) {
+		// TODO Auto-generated method stub
 		logger.logging(">> actionPerformed");
 		// JButton buttonHit= (JButton) arg0.getSource();
 		// String buttonTitle = buttonHit.getName();
